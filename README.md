@@ -8,7 +8,7 @@ To make compiling friendly, copy Include/ to /usr/include/OpenNI, this lets you 
 
     #include <OpenNI/OpenNI.h>
 
-# OpenNI
+# OpenNI - Original README from here onward
 
 
 Website: http://structure.io/openni
