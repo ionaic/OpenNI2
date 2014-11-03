@@ -6,7 +6,7 @@
 
 To make compiling friendly, copy Include/ to /usr/include/OpenNI, this lets you compile with 
 
-    <OpenNI/OpenNI.h>
+    #include <OpenNI/OpenNI.h>
 
 # OpenNI
 
