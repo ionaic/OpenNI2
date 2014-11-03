@@ -4,7 +4,8 @@
 - Issue with multiple types in declaration (OniTypes.h) due to (potentially) redefinition of status
 --> removed Status typedef from second enum definition
 
-To make compiling friendly, copy Include/ to /usr/include/OpenNI, this lets you compile with <OpenNI/OpenNI.h>
+To make compiling friendly, copy Include/ to /usr/include/OpenNI, this lets you compile with 
+    <OpenNI/OpenNI.h>
 
 # OpenNI
 
