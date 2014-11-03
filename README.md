@@ -1,3 +1,11 @@
+# Additions by Ian Ooi
+- Issue with Makefiles for making the NiViewer under Source/Tools
+--> added -lpthreads to the link flags to fix missing DSO issue
+- Issue with multiple types in declaration (OniTypes.h) due to (potentially) redefinition of status
+--> removed Status typedef from second enum definition
+
+To make compiling friendly, copy Include/ to /usr/include/OpenNI, this lets you compile with <OpenNI/OpenNI.h>
+
 # OpenNI
 
 

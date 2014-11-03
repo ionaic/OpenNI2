@@ -98,6 +98,8 @@ ALL_PROJS = \
 
 ALL_PROJS_CLEAN = $(foreach proj,$(ALL_PROJS),$(proj)-clean)
 
+LDFLAGS=-lpthread
+
 # define a function which creates a target for each proj
 define CREATE_PROJ_TARGET
 $1: 

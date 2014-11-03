@@ -19,7 +19,7 @@ SRC_FILES = \
 
 ifeq ("$(OSTYPE)","Darwin")
 	CFLAGS += -DMACOS
-	LDFLAGS += -framework OpenGL -framework GLUT
+	LDFLAGS += -framework OpenGL -framework GLUT -lpthread
 else
 	CFLAGS += -DUNIX -DGLX_GLXEXT_LEGACY
 	USED_LIBS += glut GL
@@ -30,6 +30,6 @@ USED_LIBS += OpenNI2 XnLib
 
 EXE_NAME = NiViewer
 
-CFLAGS += -Wall
+CFLAGS += -Wall -lpthread
 
 include ../../../ThirdParty/PSCommon/BuildSystem/CommonCppMakefile

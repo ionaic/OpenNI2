@@ -107,6 +107,8 @@ ifneq "$(SLIB_NAME)" ""
 	endif
 endif
 
+LDFLAGS += -lpthread
+
 define CREATE_SRC_TARGETS
 # create a target for the object file (the CXX command creates both an .o file
 # and a .d file)
